@@ -1,13 +1,13 @@
 import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
 import Medical from '../assets/projects/Medical.JPG'
+import Covid19 from '../assets/projects/covid19.JPG'
 
 export const data=[
     {
         id:1,
         name:"React Portfolio",
         image:WorkIm,
-        github:"",
+        github:"https://github.com/abdelghni-hamanar/React-Portfolio",
         live:"",
     },
     {
@@ -20,8 +20,8 @@ export const data=[
     {
         id:3,
         name:"React JS Application",
-        image:RealEst,
-        github:"",
+        image:Covid19,
+        github:"https://github.com/abdelghni-hamanar/Covid19-tracker",
         live:"",
     },
 

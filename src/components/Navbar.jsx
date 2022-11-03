@@ -9,6 +9,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
+    const linkedinprofile = "https://www.linkedin.com/in/abdelghni-hamanar-00613a23a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADt24oYBAvJinEv_Hw3xqA3TThu35vD_CsQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BjzYbeuEgRk68dPDNKUuxYA%3D%3D"
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
@@ -94,7 +95,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href={linkedinprofile}
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -102,7 +103,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/abdelghni-hamanar'
             >
               Github <FaGithub size={30} />
             </a>
